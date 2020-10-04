@@ -1,0 +1,292 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #646464;
+    font-family: system-ui;
+}
+.navbar-light {
+    background-color: #fdfdfe00 !important;
+}
+.navbar-light .navbar-nav {
+    margin: 0px 48px 0px 42%;
+}
+.btnwatch{
+    background-color: white;
+    color: #2f5bea;
+}
+.btnwatch:hover{
+	color:black;
+}
+.pb-top {
+    padding-top: 100px;
+}
+.single-guarantee {   
+    display: flex;
+    align-items: center;
+    padding: 0px 00px;
+    transition: .3s linear;
+    transform: translateY(0);
+}
+.guarantee-icon {
+    margin-right: 20px;
+}
+.guarantee-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.guarantee-content p {
+    margin-bottom: 0;
+}
+.pinkcolor{
+	color:#f7707e;
+}
+.skybluekcolor{
+	color:#3e74ff;
+}
+.greencolor{
+	color:#009688;
+}
+.single-features {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+    box-shadow: 0 0 0rem rgba(108, 118, 134, 0.1);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.section-title p {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+    line-height: 1.8;
+}
+#ultimate  .single-features {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    padding: 0;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+    box-shadow: 0 0 0rem rgba(108, 118, 134, 0.1);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#ultimate .single-features::before {
+    top: 50%;
+    left: 50%;
+    width: 0%;
+    z-index: -1;
+    height: 100%;
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #2f5bea00;
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    border-radius: 5px;
+}
+#ultimate .single-features:hover p {
+    color: #171515;
+}
+#ultimate   .single-features:hover h3 {
+    color: #211f1f;
+}
+#ultimate .single-features h3 {
+    font-size: 18px;
+    margin-top: 19px;
+    margin-bottom: 12px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+#downoad {	
+    position: relative;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/main-banner.jpg);
+    background-attachment: fixed;
+    overflow: hidden;
+    z-index: 1;
+	    border-top: 1px solid #e8e8e8;
+}
+#downoad  h1 {
+    font-size: 40px;
+    color: #000000;
+    margin: 0 0 10px 0;
+    line-height: 1.3;
+}
+.shape-box .people:nth-child(2) {
+    top: 37%;
+    right: 41%;
+    animation: scale-up-one 14s infinite linear;
+}
+.shape-box .people {
+    position: absolute;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    box-shadow: 0px 10px 20px 0px rgba(20, 44, 56, 0.25);
+    z-index: 1;
+}
+.headoffer {
+    display: inline-block;
+    background: #e2eaed;
+    border: 1px solid #E9E9E9;
+    line-height: 32px;
+    padding: 0 20px;
+    font-size: 15px;
+    color: #677180;
+    border-radius: 18px;
+}
+.main-banner {
+    position: relative;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    overflow: hidden;
+    z-index: 1;
+    background-image: url(img/back.png);
+    background-size: 100%;
+    background-position: bottom;
+}
+.page-footer{
+	background-color: #09142e;
+    padding-top: 100px;
+}
+.page-footer a{
+	color:#ffffff;
+	font-weight: 400;
+}
+.footer-copyright{
+	color: #cccaca;
+}
+.faq-accordion-content .accordion .accordion-title i {
+    position: absolute;
+    left: auto;
+    top: 0;
+    right: 4px;
+    width: 40px;
+    text-align: center;
+    height: 100%;
+    background: #2f5bea;
+    color: #ffffff;
+}
+.fa-chevron-down:before {
+    content: "\+";
+}
+.faq-accordion-content .accordion .accordion-item {
+    display: block;
+    -webkit-box-shadow: 0 0 0rem rgba(108, 118, 134, 0.1);
+    box-shadow: 0 0 0rem rgba(108, 118, 134, 0.1);
+    margin-bottom: 10px;
+    background-color: #f5f7fa;
+}
+.pricing-area {
+    background-color: #fafafa00;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.single-pricing-table .price {
+    background-color: #f4f6fd;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-top: 1px dashed #f3f3f3;
+    border-bottom: 1px dashed #f3f3f3;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    transition: 0.5s;
+}
+.single-pricing-table {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    padding-bottom: 30px;
+    border: 1px solid #dedede;
+    box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.single-pricing-table:hover .price {
+    color: #2d2828;
+}
+.single-pricing-table:hover .price sub {
+    color: #1d1b1b;
+}
+.single-pricing-table:hover .pricing-header h3 {
+    color: #353232;
+}
+.single-pricing-table:hover .price sup {
+    color: #383434;
+}
+.pricing-area {
+    background-color: #fafafa00;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-top: 1px solid #e2e2e2;
+}
+.boder-top {    
+    border-top: 1px solid #e6e6e6;
+    
+}
+#subfeauters  .single-features {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    padding: 30px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+    box-shadow: 0 0 0rem rgba(108, 118, 134, 0.1);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.testimonial-slides .client-feedback .single-feedback p {
+    position: relative;
+    max-width: 750px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+}
+#smart p{
+	padding-left:20px;
+}
+.smartline{
+	border-right: 2px solid;
+}
+@media only screen and (max-width: 480px) {
+	.navbar-light .others-option .option-item {
+		color: #000000;
+		display: inline-block;
+		position: relative;
+		line-height: 1;
+		margin: auto;
+	}
+	.smartline{
+		border-right: 0px solid;
+	}
+	#smart p{
+		padding-left:0px;
+	}
+}
